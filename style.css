@@ -4,7 +4,7 @@ body{
     margin: 0px;
     font-family: "Lora", sans-serif;
 }
-
+ 
 header{
     border-bottom: solid 3px black;
     padding: 20px;
@@ -12,7 +12,7 @@ header{
     color: black;
 }
 
-section{
+.chamada{
    background: white;
    padding-bottom: 80px;
    padding-top: 80px;
@@ -31,4 +31,13 @@ font-size: 20px;
 }
 img{
     height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
 }
